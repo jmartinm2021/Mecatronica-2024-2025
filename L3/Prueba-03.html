@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animación Aleatoria</title>
+    <style>
+        svg {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+        <circle id="circle1" cx="50" cy="50" r="10" fill="red" />
+        <circle id="circle2" cx="100" cy="100" r="10" fill="blue" />
+        <circle id="circle3" cx="150" cy="150" r="10" fill="green" />
+        <circle id="circle4" cx="150" cy="150" r="10" fill="orange" />
+        <circle id="circle5" cx="150" cy="150" r="10" fill="black" />
+        <circle id="circle6" cx="150" cy="150" r="10" fill="yellow" />
+        <circle id="circle7" cx="150" cy="150" r="10" fill="pink" />
+    </svg>
+
+    <script>
+        const circles = [
+            document.getElementById('circle1'),
+            document.getElementById('circle2'),
+            document.getElementById('circle3'),
+            document.getElementById('circle4'),
+            document.getElementById('circle5'),
+            document.getElementById('circle6'),
+            document.getElementById('circle7')
+        ];
+        const svgWidth = 400;
+        const svgHeight = 200;
+
+        function getRandomPosition() {
+            return {
+                x: Math.random() * svgWidth,
+                y: Math.random() * svgHeight
+            };
+        }
+
+        function moveCircles() {
+            circles.forEach(circle => {
+                const { x, y } = getRandomPosition();
+                circle.setAttribute('cx', x);
+                circle.setAttribute('cy', y);
+            });
+        }
+
+        // Tiempo
+        setInterval(moveCircles, 75);
+    </script>
+</body>
+</html>

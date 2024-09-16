@@ -1,0 +1,21 @@
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="5" fill="red">
+    <!-- Animación para la coordenada x -->
+    <animate
+      attributeName="cx"
+      begin="0s"
+      dur="3s"
+      values="50;200;50;0;50"
+      keyTimes="0;0.25;0.5;0.75;1"
+      repeatCount="indefinite" />
+
+    <!-- Animación para la coordenada y -->
+    <animate
+      attributeName="cy"
+      begin="0s"
+      dur="3s"
+      values="50;10;90;50;30"
+      keyTimes="0;0.25;0.5;0.75;1"
+      repeatCount="indefinite" />
+  </circle>
+</svg>

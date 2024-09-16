@@ -1,0 +1,10 @@
+ <svg height="200" width="300" xmlns="http://www.w3.org/2000/svg">
+
+   <!--
+     * x1,y1: Punto inicial
+     * x2,y2: Punto final 
+     * Atributos de estilo:
+     * stroke : Color del trazo 
+    -->
+  <line x1="30" y1="0" x2="400" y2="280" stroke="red" />
+</svg> 

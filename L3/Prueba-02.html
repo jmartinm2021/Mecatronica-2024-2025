@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animación Aleatoria</title>
+</head>
+<body>
+    <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+        <circle id="movingCircle" cx="50" cy="50" r="5" fill="red" />
+    </svg>
+
+    <script>
+        const circle = document.getElementById('movingCircle');
+        const svgWidth = 200;
+        const svgHeight = 100;
+
+        function getRandomPosition() {
+            return {
+                x: Math.random() * svgWidth,
+                y: Math.random() * svgHeight
+            };
+        }
+
+        function moveCircle() {
+            const { x, y } = getRandomPosition();
+            circle.setAttribute('cx', x);
+            circle.setAttribute('cy', y);
+        }
+
+        // Tiempo
+        setInterval(moveCircle, 100);
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+ <svg width="300" height="130" xmlns="http://www.w3.org/2000/svg">
+
+  <!--
+     * x,y: Coordenadas del punto superior izquierdo del rectangulo 
+     * width, height: Anchura y altura del rectángulo 
+     * fill: Color del relleno del rectángulo 
+  -->
+  <rect width="200" height="100" x="10" y="10" fill="red" />
+</svg> 
