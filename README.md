@@ -12,3 +12,6 @@ Hemos seguido haciendo cositas en inkscape como relleno con patrones, calco o di
 Durante el L6 hemos empezado a usar FreeCAD para el diseño en 3D de objetos, bastante sencillita aunque soy mas de Blender.
 ![Captura desde 2024-09-30 12-14-17](https://github.com/user-attachments/assets/4e327bdb-950d-4383-a875-9c82d4b7a6d3)
 ![Captura desde 2024-09-30 12-15-03](https://github.com/user-attachments/assets/060a7bb9-8106-4bb7-8c22-b52869debbb8)
+## L7
+![Captura desde 2024-10-02 13-47-10](https://github.com/user-attachments/assets/8e8e3d33-a69f-456a-b21c-ea39b193da99)
+![Captura desde 2024-10-02 13-47-57](https://github.com/user-attachments/assets/a6392e94-d027-4a2d-9249-2c50a172e35d)
